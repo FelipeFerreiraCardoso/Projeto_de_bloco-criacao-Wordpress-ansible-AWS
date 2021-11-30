@@ -1,0 +1,11 @@
+- hosts: wordpress2
+  remote_user: ubuntu
+  become: yes
+  roles:
+  - server
+  - php
+  - mysql
+  - wordpress
+  
+
+   
